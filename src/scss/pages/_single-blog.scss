@@ -1,0 +1,120 @@
+.single-blog-post {
+  padding: 10rem 0;
+}
+
+.icon-bar-social li {
+  list-style: none;
+  padding-bottom: 22px;
+  text-align: center;
+
+  a{
+    font-size: 18px;
+    line-height: 22px;
+    color: $black;
+    span{
+      color: #AFAFAF;
+      line-height: 0px;
+    }
+  }
+  
+}
+.content{
+  p{
+    font-size: 18px;
+    line-height: 28px;
+    color: $black; 
+    
+  }
+}
+.single-blog-post-small-img-one img{
+  width: 100%;
+}
+.author-social{
+  h4{
+    font-size: 16px;
+    line-height: 28px;
+    color: #737373;
+    font-family: "Poppins", sans-serif !important;
+  }
+  .author-details{
+
+    h2{
+      font-size: 20px;
+      line-height: 28px;
+      font-family: "Poppins", sans-serif !important;
+      color: #313131;
+      font-weight: 600;
+    }
+
+  }
+}
+.social{
+    a i.fab{
+      font-size: 22px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      padding-top: 9px;
+      border-radius: 50%;
+      border: 1px solid#313131;
+      margin-right: 14px;
+      color: $black;
+    
+  }
+}
+.commnets-area{
+  padding-top: 10rem;
+  h3{
+    font-size: 22px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif !important;
+    color: #313131;
+    font-weight: 600;
+  }
+  .media-body {
+    h5{
+      font-size: 22px;
+      line-height: 24px;
+      font-family: "Poppins", sans-serif !important;
+      color: #313131;
+      font-weight: 500;
+    }
+    p, span{
+      font-size: 16px;
+      line-height: 26px;
+      font-family: "Poppins", sans-serif !important;
+      color: #737373;
+      font-weight: 500;
+    }
+    i.far{
+      color: $black;
+      padding-right: 8px;
+    }
+a{
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif !important;
+  color: #737373;
+  font-weight: 600;
+}
+
+  }
+}
+
+@include medium-device {
+  .single-blog-post {
+    padding: 8rem 0;
+  }
+  .icon-bar-social li {
+
+    text-align: center;
+    display: inline-block;
+    padding-right: 26px;
+}
+p{
+  font-size: 16px!important;
+}
+.commnets-area{
+  padding-top: 5rem;
+}
+}

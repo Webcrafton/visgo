@@ -1,0 +1,121 @@
+.blog-section {
+  padding-top: 170px;
+  padding-bottom: 255px;
+  background: #f8f8f8;
+
+  h2 {
+    font-weight: 600;
+    line-height: 60px;
+  }
+}
+.tranding-blog-section {
+  margin-top: -180px;
+  .trending-blog-main {
+    background: #fff;
+    box-shadow: 5px 7px 35px #5353532e;
+  }
+}
+
+h6 {
+  &.tranding-tag {
+    color: #f45c75;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+h3 {
+  &.single-trending-post-tittle {
+    font-weight: 600;
+    line-height: 36px;
+  }
+}
+
+p {
+  &.single-trending-post-text {
+    color: #737373;
+    line-height: 30px;
+    margin-top: 10px!important;
+  }
+}
+
+a {
+  &.read-more-btn {
+    color: $light-pink;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+    i {
+      padding: 10px;
+      background: $light-pink;
+      border-radius: 50%;
+      margin-left: 8px;
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}
+.single-trending-blog img{
+   width: 100%;
+}
+.single-trending-blog-content {
+}
+
+.blog-travel-tips {
+  img{
+    width: 100%;
+  }
+  padding: 80px 0;
+  h2 {
+    padding-bottom: 40px;
+  }
+}
+h4 {
+  &.blog-travel-tips-tittle {
+    color: $black;
+  }
+}
+.travel-tips-post-details {
+
+  margin-top: 35px;
+  p {
+    color: #737373;
+  }
+  i.far.fa-heart.float-right.mt-2 {
+    color: #ddd;
+}
+}
+
+.featured-img img{
+  width: 100%;
+}
+
+//Responsive
+@include large-device {
+  .blog-section {
+    padding-top: 120px;
+  }
+  .tranding-blog-section {
+    margin-top: -230px;
+  }
+  .single-trending-blog-content {
+    padding: 26px;
+    h3 {
+      line-height: 30px;
+    }
+  }
+
+  h3.single-trending-post-tittle {
+    line-height: 32px !important;
+    padding-bottom: 13px;
+  }
+  .blog-travel-tips {
+    padding: 60px 0px;
+  }
+
+  .travel-tips-post-details {
+    margin-top: 20px;
+  }
+}

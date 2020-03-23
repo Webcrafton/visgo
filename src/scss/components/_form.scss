@@ -1,0 +1,45 @@
+input:focus {
+  outline: none;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+  @include font-poppins;
+  font-size: 26px !important;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  color: #AFAFAF;
+  font-family: "Poppins", sans-serif !important;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  @include font-poppins;
+  line-height: 30px;
+  padding-bottom: 5px;
+}
+.btn-lg {
+  border-radius: 0px !important;
+}
+.form-control {
+  margin-bottom: 20px !important;
+  background-color: #fff !important;
+  border-radius: 0px !important;
+  border: 0px !important;
+  padding-left: 20px;
+  border:1px solid #DADADA!important;
+}
+
+@media (max-width: 768px) {
+
+  input::placeholder,
+  textarea::placeholder {
+    @include font-poppins;
+    font-size: 18px !important;
+
+  }
+  
+}

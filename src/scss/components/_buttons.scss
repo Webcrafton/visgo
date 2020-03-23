@@ -1,0 +1,108 @@
+/*--Buttons--*/
+.button-group .btn:last-child {
+  margin-right: 0;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn {
+  border: 0px !important;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  text-transform: capitalize !important;
+  @include font-poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 26px;
+  line-height: 28px;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0 0 12px rgba(91, 170, 161, 0.048);
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn:hover {
+  box-shadow: 0 6px 12px -3px rgba(244, 92, 117, 0.219);
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+
+}
+.btn.btn-lg {
+  height: 66px;
+  line-height: 30px;
+  font-size: 16x;
+}
+
+/*===== Pink Button ======= */
+.btn-pink {
+  background: $light-pink;
+  color: #fff !important;
+  @include border-radius(10px);
+  font-size: 16px;
+  padding: 14px 20px;
+  font-weight: 400;
+}
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink.active,
+.btn-pink:not(:disabled):not(.disabled):active:focus {
+  color: #fff !important;
+  z-index: 9999;
+  box-shadow: 0 6px 12px -3px rgba(244, 92, 117, 0.219);
+  transform: translate(0, -3px);
+  -webkit-transform: translate(0, -3px);
+}
+.btn-o:hover,
+.btn-o:focus,
+.btn-o.active,
+.btn-o:not(:disabled):not(.disabled):active:focus {
+  background-color: $pink;
+  color: #fff !important;
+  transform: none !important;
+  border: 0px !important;
+  box-shadow: 0px !important;
+  transition: none !important;
+}
+.btn-submit{
+  padding: 12px 60px;
+  border-radius: 34px;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  border: 0px !important;
+}
+@media (max-width: 991px) {
+  .btn {
+    border-radius: 6px;
+    border-width: 1px;
+    font-size: 13px;
+  }
+  .btn-pink {
+    padding: 9px 16px;
+    margin-top: 15px;
+
+}
+  .btn.btn-lg {
+    height: 55px;
+    line-height: 30px;
+    font-size: 16x;
+  }
+
+}
